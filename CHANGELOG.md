@@ -5,6 +5,29 @@ All notable changes to this project will be documented in this file.
 The format is based on [keep a changelog][xtlink-keep-a-changelog]
 and this project adheres to [Semantic Versioning 2.0.0][xtlink-semantic-versioning].
 
+## [0.2.0] - 2023-09-11
+
+### Fixed
+
+* `MappedArrayValidator::validate()`
+* PHPDoc
+
+### Changed
+
+* updated composer package dependencies
+  * added
+    * `codekandis/converters` [^0]
+    * `codekandis/regular-expressions` [^0]
+
+### Added
+
+* `IsDateIntervalStringValidator`
+* `IsDateTimeStringValidator`
+* `IsDateTimeStringByFormatValidator`
+
+[0.2.0]: https://github.com/codekandis/duplicator/compare/0.1.0..0.2.0
+
+---
 ## [0.1.0] - 2021-10-17
 
 ### Added
