@@ -26,7 +26,9 @@
 		"source": "https://github.com/codekandis/validators/tree/master"
 	},
 	"require": {
-		"php": "^7.4"
+		"php": "^7.4",
+		"codekandis/converters": "^0",
+		"codekandis/regular-expressions": "^0"
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-master",

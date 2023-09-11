@@ -8,6 +8,11 @@ use function next;
 use function reset;
 use function sprintf;
 
+/**
+ * Represents an array validator mappings.
+ * @package codekandis/validators
+ * @author Christian Ramelow <info@codekandis.net>
+ */
 class ArrayValidatorMappings implements ArrayValidatorMappingsInterface
 {
 	/**

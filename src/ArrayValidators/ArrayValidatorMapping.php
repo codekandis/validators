@@ -4,7 +4,7 @@ namespace CodeKandis\Validators\ArrayValidators;
 use CodeKandis\Validators\ValidatorInterface;
 
 /**
- * Represents an entity property mapping.
+ * Represents an array validator mapping.
  * @package codekandis/validators
  * @author Christian Ramelow <info@codekandis.net>
  */
