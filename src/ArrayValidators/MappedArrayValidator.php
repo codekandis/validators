@@ -5,7 +5,7 @@ use function array_key_exists;
 use function is_array;
 
 /**
- * Represents an mapped array validator.
+ * Represents a mapped array validator.
  * @package codekandis/validators
  * @author Christian Ramelow <info@codekandis.net>
  */

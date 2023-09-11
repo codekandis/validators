@@ -4,7 +4,7 @@ namespace CodeKandis\Validators\ArrayValidators;
 use CodeKandis\Validators\ValidatorInterface;
 
 /**
- * Represents the interface of all array data validator mappings.
+ * Represents the interface of any array data validator mapping.
  * @package codekandis/validators
  * @author Christian Ramelow <info@codekandis.net>
  */

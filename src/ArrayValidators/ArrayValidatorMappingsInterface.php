@@ -5,7 +5,7 @@ use Countable;
 use Iterator;
 
 /**
- * Represents the interface of all array validator mapping lists.
+ * Represents the interface of any array validator mappings.
  * @package codekandis/validators
  * @author Christian Ramelow <info@codekandis.net>
  */
