@@ -2,6 +2,7 @@
 namespace CodeKandis\Validators\ArrayValidators;
 
 use function array_key_exists;
+use function is_array;
 
 /**
  * Represents an mapped array validator.
@@ -49,18 +50,16 @@ class MappedArrayValidator implements MappedArrayValidatorInterface
 			return false;
 		}
 
-		$isValid = true;
-
 		foreach ( $this->arrayValidatorMappings as $arrayValidatorMapping )
 		{
 			$key     = $arrayValidatorMapping->getKey();
-			$isValid = $isValid && array_key_exists( $key, $value ) && $arrayValidatorMapping->getValidator()->validate( $value[ $key ] );
+			$isValid = array_key_exists( $key, $value ) && $arrayValidatorMapping->getValidator()->validate( $value[ $key ] );
 			if ( false === $isValid )
 			{
 				return false;
 			}
 		}
 
-		return $isValid;
+		return true;
 	}
 }
