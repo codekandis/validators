@@ -11,7 +11,7 @@ use function is_object;
 class IsNullableObjectValidator implements ValidatorInterface
 {
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function validate( $value ): bool
 	{

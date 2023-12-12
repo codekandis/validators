@@ -12,7 +12,7 @@ use Throwable;
 class IsDateIntervalStringValidator implements ValidatorInterface
 {
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function validate( $value ): bool
 	{

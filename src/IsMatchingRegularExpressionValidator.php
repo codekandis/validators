@@ -9,7 +9,7 @@ use function is_string;
  * @package codekandis/validators
  * @author Christian Ramelow <info@codekandis.net>
  */
-class IsMatchingRegExValidator implements ValidatorInterface
+class IsMatchingRegularExpressionValidator implements ValidatorInterface
 {
 	/**
 	 * Stores the pattern to match the value.
@@ -27,7 +27,7 @@ class IsMatchingRegExValidator implements ValidatorInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function validate( $value ): bool
 	{

@@ -34,7 +34,7 @@ class ArrayValidatorMapping implements ArrayValidatorMappingInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function getKey(): string
 	{
@@ -42,7 +42,7 @@ class ArrayValidatorMapping implements ArrayValidatorMappingInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function getValidator(): ValidatorInterface
 	{

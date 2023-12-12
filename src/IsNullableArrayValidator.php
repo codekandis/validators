@@ -11,7 +11,7 @@ use function is_array;
 class IsNullableArrayValidator implements ValidatorInterface
 {
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function validate( $value ): bool
 	{

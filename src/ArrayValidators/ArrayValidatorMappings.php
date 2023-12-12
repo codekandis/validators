@@ -38,7 +38,7 @@ class ArrayValidatorMappings implements ArrayValidatorMappingsInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function count(): int
 	{
@@ -46,7 +46,7 @@ class ArrayValidatorMappings implements ArrayValidatorMappingsInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function current()
 	{
@@ -54,7 +54,7 @@ class ArrayValidatorMappings implements ArrayValidatorMappingsInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function key()
 	{
@@ -62,7 +62,7 @@ class ArrayValidatorMappings implements ArrayValidatorMappingsInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function next(): void
 	{
@@ -70,7 +70,7 @@ class ArrayValidatorMappings implements ArrayValidatorMappingsInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function rewind(): void
 	{
@@ -78,7 +78,7 @@ class ArrayValidatorMappings implements ArrayValidatorMappingsInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function valid(): bool
 	{
@@ -86,7 +86,7 @@ class ArrayValidatorMappings implements ArrayValidatorMappingsInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function add( ArrayValidatorMappingInterface ...$arrayValidatorMappings ): void
 	{
@@ -106,7 +106,7 @@ class ArrayValidatorMappings implements ArrayValidatorMappingsInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function findByKey( string $key ): ?ArrayValidatorMappingInterface
 	{
