@@ -11,7 +11,7 @@ use function is_object;
 class IsObjectValidator implements ValidatorInterface
 {
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function validate( $value ): bool
 	{

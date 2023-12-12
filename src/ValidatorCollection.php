@@ -38,7 +38,7 @@ class ValidatorCollection implements ValidatorCollectionInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function count(): int
 	{
@@ -46,7 +46,7 @@ class ValidatorCollection implements ValidatorCollectionInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function current()
 	{
@@ -54,7 +54,7 @@ class ValidatorCollection implements ValidatorCollectionInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function next(): void
 	{
@@ -62,7 +62,7 @@ class ValidatorCollection implements ValidatorCollectionInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function key()
 	{
@@ -70,7 +70,7 @@ class ValidatorCollection implements ValidatorCollectionInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function valid(): bool
 	{
@@ -78,7 +78,7 @@ class ValidatorCollection implements ValidatorCollectionInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function rewind(): void
 	{
@@ -104,7 +104,7 @@ class ValidatorCollection implements ValidatorCollectionInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function validate( $value ): bool
 	{

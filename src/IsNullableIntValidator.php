@@ -11,7 +11,7 @@ use function is_int;
 class IsNullableIntValidator implements ValidatorInterface
 {
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function validate( $value ): bool
 	{

@@ -11,7 +11,7 @@ use function is_float;
 class IsFloatValidator implements ValidatorInterface
 {
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function validate( $value ): bool
 	{

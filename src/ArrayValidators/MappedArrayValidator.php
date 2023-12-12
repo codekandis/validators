@@ -33,7 +33,7 @@ class MappedArrayValidator implements MappedArrayValidatorInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function getArrayValidatorMappings(): ArrayValidatorMappingsInterface
 	{
@@ -41,7 +41,7 @@ class MappedArrayValidator implements MappedArrayValidatorInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function validate( $value ): bool
 	{

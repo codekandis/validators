@@ -11,7 +11,7 @@ use function is_bool;
 class IsBoolValidator implements ValidatorInterface
 {
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function validate( $value ): bool
 	{

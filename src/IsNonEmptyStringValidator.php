@@ -11,7 +11,7 @@ use function is_string;
 class IsNonEmptyStringValidator implements ValidatorInterface
 {
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function validate( $value ): bool
 	{

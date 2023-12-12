@@ -27,7 +27,7 @@ class IsMatchingRegularExpressionValidator implements ValidatorInterface
 	}
 
 	/**
-	 * {@inheritDoc}
+	 * @inheritDoc
 	 */
 	public function validate( $value ): bool
 	{
